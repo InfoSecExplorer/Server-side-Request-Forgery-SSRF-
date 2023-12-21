@@ -46,6 +46,33 @@ SSRF vulnerabilities occur when an application is designed to forward a user-sup
 
 * Test if it’s possible to use the SSRF vulnerability to exploit other vulnerabilities
 
+# Steps To Reproduce
+
+1. Login to Search.gov and click help manual.
+2. The following request was vulnerable.
+
+![ssrf1](https://github.com/InfoSecExplorer/Server-side-Request-Forgery-SSRF-/assets/145893728/f7e9a029-7bf7-495f-8320-1fba0cd5c701)
+
+3. If you insert http://127.0.0.1:21/?%0A before url parameter and send request, then response time is about 450ms. (Port is closed)
+ 
+![ssrf2](https://github.com/InfoSecExplorer/Server-side-Request-Forgery-SSRF-/assets/145893728/00ca7a9d-edb9-4a7d-a93c-215f05aea769)
+
+4. If you insert http://127.0.0.1:22/?%0A before url parameter and send request, then response time is about 10,468ms. (Port is open)
+ 
+![ssrf3](https://github.com/InfoSecExplorer/Server-side-Request-Forgery-SSRF-/assets/145893728/4e86c00b-9584-474f-aa9e-232fbd22da45)
+
+5. If you insert http://169.254.169.254/latest/meta-data/iam/security-credentials/?%0A before url parameter, then response body is empty. (/security-credentials exists)
+ 
+![ssrf4](https://github.com/InfoSecExplorer/Server-side-Request-Forgery-SSRF-/assets/145893728/1ae78381-24c7-41dc-b4d3-671647ef4df7)
+
+6. If you insert http://169.254.169.254/latest/meta-data/iam/security-credentialx/?%0A before url parameter, then response body is Unable to retrieve error. (/security-credentialx does not exists)
+
+![ssrf5](https://github.com/InfoSecExplorer/Server-side-Request-Forgery-SSRF-/assets/145893728/d441d154-77aa-4d3a-a8de-2892987a248e)
+
+7. Finally Successfully Exploited SSRF Vulnerability.
+
+![ssrf6](https://github.com/InfoSecExplorer/Server-side-Request-Forgery-SSRF-/assets/145893728/d77cbcc0-48b9-4d95-b326-76e3e390adb4)
+
 
 # SSRF vulnerability exploits
 
@@ -108,6 +135,34 @@ SSRF vulnerabilities occur when an application is designed to forward a user-sup
 * Train your developer and user: Regularly train your developers, and end-users on the SSRF vulnerabilities and the importance of keeping software and systems updated.
 
 * Monitor and Audit: Regularly monitor and audit your systems, network and applications for any suspicious activity.
+
+# Top 25 Server-Side Request Forgery (SSRF) Parameters
+
+**?dest={target}
+?redirect={target}
+?uri={target}
+?path={target}
+?continue={target}
+?url={target}
+?window={target}
+?next={target}
+?data={target}
+?reference={target}
+?site={target}
+?html={target}
+?val={target}
+?validate={target}
+?domain={target}
+?callback={target}
+?return={target}
+?page={target}
+?feed={target}
+?host={target}
+?port={target}
+?to={target}
+?out={target}
+?view={target}
+?dir={target}**
 
 
 **Refferance link**
