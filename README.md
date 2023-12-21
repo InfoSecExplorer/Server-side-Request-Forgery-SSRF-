@@ -96,7 +96,7 @@ SSRF vulnerabilities occur when an application is designed to forward a user-sup
 
 * Validate and sanitize user input: Make sure that your web application properly validates and sanitizes user input to prevent SSRF vulnerabilities. This includes using whitelists to restrict the types of URLs that can be accessed, and implementing input validation checks to ensure that user input conforms to a specific format.
 
-*. Use a Content Security Policy (CSP): Use a Content Security Policy (CSP) to specify which sources of content are allowed to be loaded by your web application. This can help prevent SSRF attacks by blocking malicious requests from being loaded.
+* Use a Content Security Policy (CSP): Use a Content Security Policy (CSP) to specify which sources of content are allowed to be loaded by your web application. This can help prevent SSRF attacks by blocking malicious requests from being loaded.
 
 * Implement access controls: Implement access controls to limit the types of requests that can be made to internal resources. This can include limiting the types of URLs that can be accessed, and implementing authentication and authorization checks to ensure that only authorized users can access internal resources.
 
