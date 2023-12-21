@@ -164,26 +164,22 @@ SSRF vulnerabilities occur when an application is designed to forward a user-sup
 * ?view={target}
 * ?dir={target}**
 
-
 **Refferance link**
-1. https://hackerone.com/reports/737161
-2. https://hackerone.com/reports/816848
-3. https://hackerone.com/reports/398799
-4. https://hackerone.com/reports/382048
-5. https://hackerone.com/reports/406387
-6. https://hackerone.com/reports/736867
-7. https://hackerone.com/reports/517461
-8. https://hackerone.com/reports/508459
-9. https://hackerone.com/reports/738553
-10. https://hackerone.com/reports/514224
-11. https://hackerone.com/reports/341876
-12. https://hackerone.com/reports/793704
-13. https://hackerone.com/reports/386292
-14. https://hackerone.com/reports/326040
-15. https://hackerone.com/reports/310036
-16. https://hackerone.com/reports/643622
-17. https://hackerone.com/reports/885975
-18. https://hackerone.com/reports/207477
-
-
-
+* https://hackerone.com/reports/737161
+* https://hackerone.com/reports/816848
+* https://hackerone.com/reports/398799
+* https://hackerone.com/reports/382048
+* https://hackerone.com/reports/406387
+* https://hackerone.com/reports/736867
+* https://hackerone.com/reports/517461
+* https://hackerone.com/reports/508459
+* https://hackerone.com/reports/738553
+* https://hackerone.com/reports/514224
+* https://hackerone.com/reports/341876
+* https://hackerone.com/reports/793704
+* https://hackerone.com/reports/386292
+* https://hackerone.com/reports/326040
+* https://hackerone.com/reports/310036
+* https://hackerone.com/reports/643622
+* https://hackerone.com/reports/885975
+* https://hackerone.com/reports/207477
