@@ -3,6 +3,7 @@
 Server-Side Request Forgery (SSRF) is a type of web application vulnerability that allows an attacker to send arbitrary HTTP requests from a vulnerable web application to an external server. The application may be tricked into sending malicious requests to internal systems, which could lead to sensitive data exposure or other security issues.
 
 SSRF vulnerabilities occur when an application is designed to forward a user-supplied URL or other input to an external server, without properly validating or sanitizing the input. This can allow an attacker to craft a request that causes the application to send a request to an internal system or resource that would otherwise be inaccessible. For example, an attacker could use SSRF to access internal network resources such as databases, file servers, or other sensitive systems.
+![maxresdefault](https://github.com/InfoSecExplorer/Server-side-Request-Forgery-SSRF-/assets/145893728/8a175435-74df-41c1-a988-c8adde2203d1)
 
 # What is its impact?
 **A malicious actor can retrieve the content of arbitrary files on the system, which leads to sensitive information exposure(passwords, source code, confidential data, etc.).**
