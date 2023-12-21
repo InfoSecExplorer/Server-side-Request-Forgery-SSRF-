@@ -138,31 +138,31 @@ SSRF vulnerabilities occur when an application is designed to forward a user-sup
 
 # Top 25 Server-Side Request Forgery (SSRF) Parameters
 
-**?dest={target}
-?redirect={target}
-?uri={target}
-?path={target}
-?continue={target}
-?url={target}
-?window={target}
-?next={target}
-?data={target}
-?reference={target}
-?site={target}
-?html={target}
-?val={target}
-?validate={target}
-?domain={target}
-?callback={target}
-?return={target}
-?page={target}
-?feed={target}
-?host={target}
-?port={target}
-?to={target}
-?out={target}
-?view={target}
-?dir={target}**
+* ?dest={target}
+* ?redirect={target}
+* ?uri={target}
+* ?path={target}
+* ?continue={target}
+* ?url={target}
+* ?window={target}
+* ?next={target}
+* ?data={target}
+* ?reference={target}
+* ?site={target}
+* ?html={target}
+* ?val={target}
+* ?validate={target}
+* ?domain={target}
+* ?callback={target}
+* ?return={target}
+* ?page={target}
+* ?feed={target}
+* ?host={target}
+* ?port={target}
+* ?to={target}
+* ?out={target}
+* ?view={target}
+* ?dir={target}**
 
 
 **Refferance link**
