@@ -109,5 +109,25 @@ SSRF vulnerabilities occur when an application is designed to forward a user-sup
 * Monitor and Audit: Regularly monitor and audit your systems, network and applications for any suspicious activity.
 
 
+**Refferance link**
+1. https://hackerone.com/reports/737161
+2. https://hackerone.com/reports/816848
+3. https://hackerone.com/reports/398799
+4. https://hackerone.com/reports/382048
+5. https://hackerone.com/reports/406387
+6. https://hackerone.com/reports/736867
+7. https://hackerone.com/reports/517461
+8. https://hackerone.com/reports/508459
+9. https://hackerone.com/reports/738553
+10. https://hackerone.com/reports/514224
+11. https://hackerone.com/reports/341876
+12. https://hackerone.com/reports/793704
+13. https://hackerone.com/reports/386292
+14. https://hackerone.com/reports/326040
+15. https://hackerone.com/reports/310036
+16. https://hackerone.com/reports/643622
+17. https://hackerone.com/reports/885975
+18. https://hackerone.com/reports/207477
+
 
 
